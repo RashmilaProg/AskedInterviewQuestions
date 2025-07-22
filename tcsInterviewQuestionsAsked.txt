@@ -1,13 +1,23 @@
-"If Input: [{()}] or [()()]{} then output should be True  
-If Input : ([{]}) or (] be false "
-"//two vectors 
-    //vec1 = {1, 4, 1, 2, 3}
-    //vec2 = {5, 1, 6, 5, 4} //Merge the vectors, sort it and remove duplicates"
-Difference between thread and process
-shared_ptr program
-What are smart pointers
-Difference between binary tree and binary heap
-Difference between inline and lambda functions
-which features have you used on C++11
-How do we manage memory leaks
-Difference between new and malloc 
+1.    "If Input: [{()}] or [()()]{} then output should be True  
+    If Input : ([{]}) or (] be false "
+    https://takeuforward.org/plus/dsa/problems/valid-paranthesis-checker?tab=editorial
+
+2.     "//two vectors 
+        //vec1 = {1, 4, 1, 2, 3}
+        //vec2 = {5, 1, 6, 5, 4} //Merge the vectors, sort it and remove duplicates"
+    https://www.geeksforgeeks.org/cpp/remove-duplicates-from-vector-in-cpp/
+    https://takeuforward.org/plus/dsa/arrays/logic-building/remove-duplicates-from-sorted-array?tab=editorial
+
+3.     Difference between thread and process - https://www.geeksforgeeks.org/operating-systems/difference-between-process-and-thread/
+
+4.     shared_ptr program - refer github repo smartpointers
+
+5.    What are smart pointers - refer github repo smartpointers
+
+6.    Difference between binary tree and binary heap
+7.    Difference between inline and lambda functions
+8.    which features have you used on C++11
+9.    How do we manage memory leaks
+
+10.    Difference between new and malloc 
+    https://www.geeksforgeeks.org/cpp/new-vs-malloc-and-free-vs-delete-in-c/
