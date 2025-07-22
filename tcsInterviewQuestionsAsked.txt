@@ -1,0 +1,13 @@
+"If Input: [{()}] or [()()]{} then output should be True  
+If Input : ([{]}) or (] be false "
+"//two vectors 
+    //vec1 = {1, 4, 1, 2, 3}
+    //vec2 = {5, 1, 6, 5, 4} //Merge the vectors, sort it and remove duplicates"
+Difference between thread and process
+shared_ptr program
+What are smart pointers
+Difference between binary tree and binary heap
+Difference between inline and lambda functions
+which features have you used on C++11
+How do we manage memory leaks
+Difference between new and malloc 
