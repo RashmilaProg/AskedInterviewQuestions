@@ -6,23 +6,49 @@
         //vec1 = {1, 4, 1, 2, 3}
         //vec2 = {5, 1, 6, 5, 4} //Merge the vectors, sort it and remove duplicates"
 
-    Merge two vectors
-    int main() {
-    std::vector<int> vec1 = {1, 2, 3};
-    std::vector<int> vec2 = {4, 5, 6};
-
-    // Append vec2 to vec1
+    int main()
+{
+    vector<int> vec1 = {1, 4, 1, 2, 3};
+    vector<int> vec2 = {5, 1, 6, 5, 4};
+    
+    //Merge two vectors
+    
     vec1.insert(vec1.end(), vec2.begin(), vec2.end());
-
-    std::cout << "Concatenated vector (vec1): ";
-    for (int num : vec1) {
-        std::cout << num << " ";
+    
+    cout<<"Merged vector is";
+    for(auto i: vec1)
+    {
+        cout<<i<<" ";
     }
-    std::cout << std::endl;
-
+    
+    //Sort two vectors
+    
+    sort(vec1.begin(), vec1.end());
+    cout<<"\nSorted vector is";
+    for(auto i: vec1)
+    {
+        cout<<i<<" ";
+    }
+    int i = 0;
+    
+    for(int j = i+1; j<vec1.size(); j++)
+    {
+        if(vec1[i] != vec1[j])
+        {
+            vec1[i+1] = vec1[j];
+            i++;
+        }
+    }
+    
+    vec1.resize(i+1);
+    cout<<"\nUnique vector is";
+     for(auto i: vec1)
+    {
+        cout<<i<<" ";
+    }
+    
     return 0;
-    }
-
+}
     https://www.geeksforgeeks.org/cpp/remove-duplicates-from-vector-in-cpp/
     https://takeuforward.org/plus/dsa/arrays/logic-building/remove-duplicates-from-sorted-array?tab=editorial
 
