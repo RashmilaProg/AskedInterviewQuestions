@@ -5,6 +5,24 @@
 2.     "//two vectors 
         //vec1 = {1, 4, 1, 2, 3}
         //vec2 = {5, 1, 6, 5, 4} //Merge the vectors, sort it and remove duplicates"
+
+    Merge two vectors
+    int main() {
+    std::vector<int> vec1 = {1, 2, 3};
+    std::vector<int> vec2 = {4, 5, 6};
+
+    // Append vec2 to vec1
+    vec1.insert(vec1.end(), vec2.begin(), vec2.end());
+
+    std::cout << "Concatenated vector (vec1): ";
+    for (int num : vec1) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+    }
+
     https://www.geeksforgeeks.org/cpp/remove-duplicates-from-vector-in-cpp/
     https://takeuforward.org/plus/dsa/arrays/logic-building/remove-duplicates-from-sorted-array?tab=editorial
 
