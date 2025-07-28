@@ -1,6 +1,6 @@
 1.    "If Input: [{()}] or [()()]{} then output should be True  
     If Input : ([{]}) or (] be false "
-    https://takeuforward.org/plus/dsa/problems/valid-paranthesis-checker?tab=editorial
+  https://www.geeksforgeeks.org/dsa/check-for-balanced-parentheses-in-an-expression/
 
 2.     "//two vectors 
         //vec1 = {1, 4, 1, 2, 3}
