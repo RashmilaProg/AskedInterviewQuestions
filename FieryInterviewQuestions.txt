@@ -1,0 +1,8 @@
+Difference between static and dynamic library. When is the library loaded how it is generated
+templates - is template execution faster
+Convert a number into words
+What is virtual function
+Does memory leak cause application to crash? What will happen? Will other applications also crash?
+](2+7)+(9*8)[ is it valid expression 
+Write a code for deadlock situation
+What is multithreading when to use it
