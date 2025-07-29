@@ -1,4 +1,7 @@
 Difference between static and dynamic library. When is the library loaded how it is generated
+https://www.geeksforgeeks.org/operating-systems/static-vs-dynamic-libraries/
+https://www.geeksforgeeks.org/operating-systems/difference-between-static-and-shared-libraries/
+
 templates - is template execution faster
 Convert a number into words
 What is virtual function
