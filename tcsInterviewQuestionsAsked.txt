@@ -70,6 +70,7 @@ Not Guaranteed:
 The compiler is not obligated to inline a function even if marked inline. It makes its own decisions based on factors like function size and optimization settings.
 Scope:
 Inline functions are regular named functions that can be defined globally or within a class.
+
 Lambda Functions:
 Anonymous Functions:
 Lambdas are anonymous function objects (functors) that can be defined directly where they are used. They provide a concise way to create small, local functions without needing to explicitly define a named function or a separate class.
@@ -81,6 +82,7 @@ Readability and Conciseness:
 Lambdas are often used to improve code readability and reduce boilerplate, especially in algorithms that require custom logic (e.g., sorting comparators, callbacks).
 Runtime Object:
 While the definition of a lambda is inline, the lambda itself creates an object at runtime.
+
 Key Differences Summarized:
 Purpose:
 inline is a performance optimization hint for existing functions; lambdas are a way to define anonymous, local function objects.
