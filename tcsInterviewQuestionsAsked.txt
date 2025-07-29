@@ -60,6 +60,41 @@
 
 6.    Difference between binary tree and binary heap
 7.    Difference between inline and lambda functions
+Inline functions and lambda functions in C++ serve different purposes, although both can be used to improve performance or code readability.
+Inline Functions:
+Compiler Hint:
+The inline keyword is a hint to the compiler that it should consider replacing function calls with the actual function body at the call site during compilation. This can reduce the overhead associated with function calls (e.g., stack operations, argument passing), potentially leading to faster execution for small, frequently called functions.
+Compile-Time Expansion:
+The expansion of inline functions happens at compile time.
+Not Guaranteed:
+The compiler is not obligated to inline a function even if marked inline. It makes its own decisions based on factors like function size and optimization settings.
+Scope:
+Inline functions are regular named functions that can be defined globally or within a class.
+Lambda Functions:
+Anonymous Functions:
+Lambdas are anonymous function objects (functors) that can be defined directly where they are used. They provide a concise way to create small, local functions without needing to explicitly define a named function or a separate class.
+Function Objects:
+Lambdas are essentially syntactic sugar for creating a temporary, anonymous class with an operator() overload, making them callable like functions.
+Capture Clause:
+A powerful feature of lambdas is their ability to "capture" variables from their enclosing scope, allowing them to access and potentially modify these variables.
+Readability and Conciseness:
+Lambdas are often used to improve code readability and reduce boilerplate, especially in algorithms that require custom logic (e.g., sorting comparators, callbacks).
+Runtime Object:
+While the definition of a lambda is inline, the lambda itself creates an object at runtime.
+Key Differences Summarized:
+Purpose:
+inline is a performance optimization hint for existing functions; lambdas are a way to define anonymous, local function objects.
+Naming:
+Inline functions have names; lambdas are anonymous.
+Capture:
+Lambdas can capture variables from their enclosing scope; inline functions cannot.
+Creation:
+Inline functions are regular functions; lambdas create temporary function objects.
+Compiler Control:
+The compiler has more discretion over inlining than over the creation of lambda objects.
+
+https://www.geeksforgeeks.org/cpp/when-to-use-lambda-expressions-instead-of-functions-in-cpp/
+
 8.    which features have you used on C++11
 9.    How do we manage memory leaks
 
